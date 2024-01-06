@@ -20,5 +20,5 @@ if st.button('Predict'):
     result = model.predict([data])
 
     # Display the result
-    st.success(f"The predicted crop is: {result[0]}")
+    st.success(f"The predicted crop is: {str(result[0])}")
 
